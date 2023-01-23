@@ -1,0 +1,121 @@
+:root {
+  --ceiling_height: 140px;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: rgba(25, 161, 174, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 280px bottom 300px, left 280px top 300px;
+}
+
+.container {
+  width: 326px;
+  height: 374px;
+  background-color: white;
+  position: relative;
+  border-radius: 15px;
+}
+
+.images {
+  display: block;
+  position: relative;
+}
+
+img {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: var(--ceiling_height);
+}
+
+#victor {
+  width: 96px;
+  height: 96px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  position: absolute;
+  top: 89.5px;
+  left: calc(50% - 53px);
+}
+
+.Bottom_Section {
+  border-top: 1px solid #e8e9ec;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  padding: 0 52px 0;
+}
+
+.bold {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(46, 51, 73, 1);
+}
+
+.bold {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(46, 51, 73, 1);
+}
+
+.lite {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: rgba(107, 112, 130, 1);
+  margin: -13px;
+}
+
+.bio_lite {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(107, 112, 130, 1);
+}
+
+.london {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.36px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(107, 112, 130, 1);
+  margin: -8px;
+}
+.bio {
+  margin-top: 65px;
+  margin-bottom: 37px;
+}
+
+/* top_ball {
+  position: absolute;
+  top: 500px;
+  left: 500px;
+}
+bottom_ball {
+  position: absolute;
+  top: -500px;
+  left: -500px;
+} */
